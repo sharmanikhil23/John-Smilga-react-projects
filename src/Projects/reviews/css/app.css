@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+body div {
+  width: 100%;
+  height: 100%;
+}
+body div #playArea {
+  width: 40%;
+  margin: 10vh auto;
+  border-radius: 0.5rem;
+}
+body div #playArea .playArea-heading {
+  text-align: center;
+  margin: 3rem 0rem;
+}
+body div #playArea .playArea-heading .playArea-heading-title {
+  font-size: 3rem;
+}
+body div #playArea .playArea-heading .playArea-heading-underline {
+  content: "";
+  background-color: #48a6e8;
+  width: 10%;
+  display: block;
+  height: 0.5rem;
+  margin: auto;
+}
+body div #playArea .review {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+body div #playArea .review .review-image-area {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+body div #playArea .review .review-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0rem 0rem 1rem;
+}
+body div #playArea .review .review-name {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  margin: 1rem 0rem;
+}
+body div #playArea .review .review-title {
+  color: #48a6e8;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0rem 0rem 1rem;
+}
+body div #playArea .review .review-description {
+  font-size: 1.8rem;
+  color: #617d98;
+  margin: 0rem 0rem 1rem;
+}
+body div #playArea .review .review-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body div #playArea .review .review-arrow {
+  font-size: 5rem;
+  padding: 1rem;
+  color: #8bcbf9;
+}
+body div #playArea .review .review-arrow:hover {
+  color: #48a6e8;
+}
+body div #playArea .review .review-random {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #eaf7ff;
+  color: #48a6e8;
+  border-radius: 0.5rem;
+}
+body div #playArea .review .review-random:hover {
+  background-color: #48a6e8;
+  color: black;
+}/*# sourceMappingURL=app.css.map */
