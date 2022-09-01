@@ -7,7 +7,8 @@ import ReactDOM from "react-dom/client";
 // import { App } from "./Projects/reviews/App";
 //import { App } from "./Projects/menu/App";
 // import { App } from "./Projects/tabs/App";
-import { App } from "./Projects/lorem_Ipsum/App";
+// import { App } from "./Projects/lorem_Ipsum/App";
+import { App } from "./Projects/grocery_bud/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

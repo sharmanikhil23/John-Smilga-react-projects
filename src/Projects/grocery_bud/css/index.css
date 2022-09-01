@@ -1,0 +1,110 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100vw;
+  background-color: #f1f5f8;
+}
+body div {
+  width: 100%;
+}
+body div #playArea {
+  background-color: white;
+  width: 30%;
+  margin: 3rem auto;
+}
+body div #playArea #play-area-heading {
+  display: block;
+  text-align: center;
+  padding: 1rem 0rem;
+  font-size: 1.5rem;
+  color: #0d3251;
+}
+body div #playArea #play-area-form-area {
+  width: 100%;
+}
+body div #playArea #play-area-form {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+body div #playArea #play-area-form-input {
+  border: none;
+  width: 80%;
+  padding: 0.3rem 0.6rem;
+  background-color: #f1f5f8;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+body div #playArea #play-area-form-submit {
+  width: 20%;
+  padding: 0.3rem 0.6rem;
+  background-color: #a5d5f8;
+  border: none;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+body div #playArea #play-area-form-submit:hover {
+  background-color: #1a6aa2;
+  color: white;
+}
+
+.output {
+  display: flex;
+  padding: 1.3rem 2.6rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.output p {
+  color: #102a42;
+}
+.output .editPencil {
+  margin: 0rem 0.5rem;
+  color: green;
+}
+.output .editPencil:hover {
+  color: brown;
+}
+.output .trash {
+  color: black;
+}
+.output .trash:hover {
+  color: red;
+}
+
+#form-clear-all-button {
+  display: block;
+  text-align: center;
+  width: 30%;
+  margin: 1rem auto;
+  background-color: transparent;
+  border: none;
+  color: #e87272;
+  font-size: 1rem;
+  padding: 1rem;
+}
+#form-clear-all-button:hover {
+  color: red;
+}
+
+#alert {
+  margin: 1rem 0rem;
+  padding: 1.3rem 2.6rem;
+  text-align: center;
+}
+
+.alert-saved {
+  background-color: #d4edda;
+  color: #448056;
+}
+
+.alert-delete {
+  background-color: #f8d7da;
+  color: #721c24;
+}/*# sourceMappingURL=index.css.map */
